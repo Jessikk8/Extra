@@ -316,7 +316,7 @@ public class Principal extends javax.swing.JFrame {
 
     private void ExportarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ExportarActionPerformed
 
-        File archivo = new File("C:\\Users\\Lenovo\\OneDrive\\Documentos\\NetBeansProjects\\Repositorio01\\Examen final\\src\\Exportar\\Planeta.txt");
+        File archivo = new File("C:\\Users\\Jess\\OneDrive\\Documentos\\NetBeansProjects\\ExamenExtra\\src\\Exportar\\Planeta.txt");
         PrintWriter escribir;
         try{
             escribir = new PrintWriter(archivo);
